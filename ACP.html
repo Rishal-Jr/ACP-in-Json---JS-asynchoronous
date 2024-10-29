@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>ACP</title>
+</head>
+
+<body>
+    <h1></h1>
+<p id="demo"></p>
+    <script>
+async function add(a,b,c,d) {
+    let response=await a+b/c*d;
+    display(response);
+}
+function display(some){
+    document.getElementById("demo").innerHTML="The value is = " + some;
+}
+add(5,20,5,10);
+    </script>
+</body>
+
+</html>
